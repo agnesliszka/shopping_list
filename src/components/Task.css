@@ -1,0 +1,35 @@
+h1 {
+    text-transform: uppercase;
+    font-family: Goudy Old Style;
+}
+
+.element {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    background-color: white;
+}
+
+p {
+    position: relative;
+    margin: auto;
+    flex-grow: 1;
+}
+
+.complete {
+        background-color: rgb(216, 206, 226);
+        color: black;
+        border: none;
+        box-shadow: 0 0 5px 0 rgb(122, 124, 128); 
+      } 
+
+.bg-light {
+    position: relative;
+    margin: auto;
+    padding: 5px;
+}
+
+.break {
+    height: 1px;
+    font-size:1px;
+}
